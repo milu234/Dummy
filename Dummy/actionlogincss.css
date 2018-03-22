@@ -1,0 +1,90 @@
+.ADD{
+	 background-color: #4CAF50; /* Green */
+ 
+    border: none;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+.ADD:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.Add1{
+	border-radius: 50%;
+}
+
+.UPDATE{
+
+	background-color: #999966
+    border: none;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+.UPDATE:active {
+  background-color: #999966;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.DELETE{
+
+	background-color: #ff0000	; /* red */
+    border: none;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.DELETE:active {
+  background-color: #ff0000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.SEARCH{
+
+
+	background-color: #ffcc66	; /* red */
+    border: none;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.SEARCH:active {
+  background-color: #ffcc66;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+body{
+  
+text-align: center;
+  margin: 0 auto;
+  background-image: url("bgimage.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 720px;
+
+
+}

@@ -1,0 +1,27 @@
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:100px;
+      opacity: 50%;
+  }
+
+  .carousel-caption
+			{
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				z-index: 10;
+				padding-top: 20px;
+				padding-bottom: 40px;
+				color: #fff;
+				text-align: center;
+				background: rgba(0,0,0,0.4);
+			}
+
+			 @media (max-width: 600px) {
+    .carousel-caption {
+      display: none;
+
+       }
+  }
